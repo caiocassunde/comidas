@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">"食品"</string>
-    <string name="pais">中国</string>
-    <string name="content_pais">中国</string>
-    <string name="content_comida">面食</string>
+    <string name="app_name">"国家"</string>
+    <string name="pais">中国</string>>
     <string name="comida">面食</string>
 </resources>

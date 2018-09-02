@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">"τροφή"</string>
-    <string name="comida">μπάρμπεκιου</string>
-    <string name="content_pais">Ελλάδα</string>
+    <string name="app_name">"χώρες"</string>
     <string name="pais">Ελλάδα</string>
-    <string name="content_comida">μπάρμπεκιου</string>
+    <string name="comida">μπάρμπεκιου</string>
 </resources>
