@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Cibo"</string>
+    <string name="pais">Italia</string>
+    <string name="content_comida" translatable="false">Pasta</string>
+    <string name="content_pais" translatable="false">Italia</string>
+    <string name="comida">Pasta</string>
+</resources>

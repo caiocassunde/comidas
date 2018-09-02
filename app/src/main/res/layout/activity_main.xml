@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/paises"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayoutf
+        android:id="@+id/Image_pais"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayoutf>
+
+    <TextView
+        android:id="@+id/text_comida"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Feijoada"
+        android:textColor="@android:color/black"
+        android:textFontWeight="1"
+        android:textSize="@dimen/texts"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/nome_pais"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Brasil"
+        android:textColor="@android:color/black"
+        android:textFontWeight="1"
+        android:textSize="@dimen/texts"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <ImageView
+        android:id="@+id/image_pais"
+        android:layout_width="@dimen/images"
+        android:layout_height="0dp"
+        android:contentDescription="@string/content_pais"
+        android:textFontWeight="2"
+        app:srcCompat="@drawable/brasil"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <ImageView
+        android:id="@+id/comida_pais"
+        android:layout_width="@dimen/images"
+        android:layout_height="0dp"
+        android:contentDescription="@string/content_comida"
+        android:textFontWeight="2"
+        app:srcCompat="@drawable/feijoada"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="242dp" />
+</android.support.constraint.ConstraintLayout>
