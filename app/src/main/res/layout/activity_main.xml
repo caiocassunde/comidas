@@ -7,11 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayoutf
+    <LinearLayout
         android:id="@+id/Image_pais"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayoutf>
+        android:orientation="vertical" />
 
     <TextView
         android:id="@+id/text_comida"
@@ -22,7 +22,8 @@
         android:textFontWeight="1"
         android:textSize="@dimen/texts"
         tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="430dp" />
+        tools:layout_editor_absoluteY="430dp"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute" />
 
     <TextView
         android:id="@+id/nome_pais"
@@ -33,7 +34,8 @@
         android:textFontWeight="1"
         android:textSize="@dimen/texts"
         tools:layout_editor_absoluteX="172dp"
-        tools:layout_editor_absoluteY="45dp" />
+        tools:layout_editor_absoluteY="45dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/image_pais"
@@ -43,7 +45,8 @@
         android:textFontWeight="2"
         app:srcCompat="@drawable/brasil"
         tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="71dp" />
+        tools:layout_editor_absoluteY="71dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/comida_pais"
@@ -53,5 +56,6 @@
         android:textFontWeight="2"
         app:srcCompat="@drawable/feijoada"
         tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="242dp" />
+        tools:layout_editor_absoluteY="242dp"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>
